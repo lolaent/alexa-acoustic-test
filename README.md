@@ -1,3 +1,19 @@
+# Lola Alexa skill for testing Echo devices
+
+If there is an opportunity to set up a device in a presentation room before a demo, sometimes it is not desirable to run through the actual demo. However, a Lola-branded skill (not project-specific) is still preferable to just asking "what is the time?".
+
+Use this for testing:
+
+* room acoustics (can people hear it? can it hear you clearly?)
+* wifi signal + setup (is there a captive portal? are you running a phone hotspot?)
+
+The skill is currently deployed in the `dazzledev@lola.tech` account, and not published, so to use it you'll need to pair with that account with your Echo. Its app id is `amzn1.ask.skill.090210db-31a0-4d05-9274-420f85238716`
+
+The Lambda function is in the Lola AWS account, AMI is `arn:aws:lambda:eu-west-1:342114346308:function:lolaAlexaAcousticTester`.
+
+Below are the original setup instructions from Amazon:
+
+
 # Build An Alexa Fact Skill
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/fact/header._TTH_.png" />
 
